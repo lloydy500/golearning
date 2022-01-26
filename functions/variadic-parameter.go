@@ -8,6 +8,8 @@ func main() {
 	fmt.Println("The total is", x)
 }
 
+// passing in zero or more values
+// variadic parameter has to be the final parameter
 func sum(x ...int) int {
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)

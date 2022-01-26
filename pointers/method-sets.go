@@ -13,7 +13,17 @@ func main() {
 		R: 42,
 	}
 	info(sq)
-	fmt.Printf("%T\n", &ci)
+	fmt.Prifunc main() {
+		sq := square{
+			L: 14,
+		}
+		ci := circle{
+			R: 42,
+		}
+		info(sq)
+		info(ci)
+	}
+	ntf("%T\n", &ci)
 	info(&ci)
 }
 
